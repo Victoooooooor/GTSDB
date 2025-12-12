@@ -36,10 +36,10 @@ def split_data():
     mb.save_json(test, json_couple_path_class_test)
 
 
-image_dir = "./data/Image/"
-annotation_file = "./data/gt.txt"
-imagettes_output ="./data/"
-imagettes_dir_64x64="./data/64x64/"
+image_dir = "../data/Image/"
+annotation_file = "../data/gt.txt"
+imagettes_output ="../data/"
+imagettes_dir_64x64="../data/64x64/"
 # la variable si dessous est la pour stocker la liste des couple path_image et class qui a ete retenue apres le filtre selon une valuer min de 20   
 json_couple_path_class_train = imagettes_dir_64x64+"train.json"
 json_couple_path_class_val = imagettes_dir_64x64+"val.json"
