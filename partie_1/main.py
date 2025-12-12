@@ -1,11 +1,11 @@
-import partie_1.methode_de_base as mb
-from partie_1.Visualisation_et_inspection_rapide.Visualisation_data import visualise_with_box
-from partie_1.Extraction_de_imagettes_de_panneaux.resizeur import resize_all_image
-from partie_1.Filtrage_des_classes.Pretraitement import print_repartition_classes
-from partie_1.Filtrage_des_classes.Pretraitement import calculs_repartition_classes
-from partie_1.Filtrage_des_classes.Pretraitement import filtre_imagettes_selon_liste
-from partie_1.Filtrage_des_classes.Pretraitement import split_train_val_test
-from partie_1.Filtrage_des_classes.Pretraitement import print_repartition_pourcentage_par_classe
+import methode_de_base as mb
+from Visualisation_et_inspection_rapide.Visualisation_data import visualise_with_box
+from Extraction_de_imagettes_de_panneaux.resizeur import resize_all_image
+from Filtrage_des_classes.Pretraitement import print_repartition_classes
+from Filtrage_des_classes.Pretraitement import calculs_repartition_classes
+from Filtrage_des_classes.Pretraitement import filtre_imagettes_selon_liste
+from Filtrage_des_classes.Pretraitement import split_train_val_test
+from Filtrage_des_classes.Pretraitement import print_repartition_pourcentage_par_classe
 
 image_dir = "./data/Image/"
 annotation_file = "./data/gt.txt"
@@ -59,5 +59,5 @@ les diviser dans nos 3 blocs train, val et test. J’ai ajouté des JSON pour ch
 
 """
 
-#resize_all()
-#split_data()
+resize_all()
+split_data()

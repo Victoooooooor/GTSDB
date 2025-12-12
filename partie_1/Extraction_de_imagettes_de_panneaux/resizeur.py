@@ -1,6 +1,6 @@
 import os
 from PIL import Image
-import partie_1.methode_de_base as mb
+import methode_de_base as mb
 
 def extraire_from_image(image, coord):
     """
