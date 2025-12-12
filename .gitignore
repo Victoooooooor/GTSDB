@@ -1,2 +1,3 @@
 /data/
 /partie_2/models/MLP_64x64.keras
+/__pycache__/
