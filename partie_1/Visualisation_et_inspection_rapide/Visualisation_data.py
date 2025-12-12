@@ -1,7 +1,7 @@
 import os
 import random as r
 from PIL import ImageDraw
-import methode_de_base as mb
+import partie_1.methode_de_base as mb
 
 #a) Afficher quelques images GTSDB avec leurs boîtes englobantes (dessiner le rectangle autour du panneau).
 def draw_boite_sur_image(img, coord, color="red", largeur=2):
