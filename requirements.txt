@@ -7,4 +7,5 @@ scikit-learn
 tensorflow
 pillow
 scikit-learn
-
+torchvision
+ipykernel
