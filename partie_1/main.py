@@ -1,11 +1,11 @@
-import methode_de_base as mb
-from Visualisation_et_inspection_rapide.Visualisation_data import visualise_with_box
-from Extraction_de_imagettes_de_panneaux.resizeur import resize_all_image
-from Filtrage_des_classes.Pretraitement import print_repartition_classes
-from Filtrage_des_classes.Pretraitement import calculs_repartition_classes
-from Filtrage_des_classes.Pretraitement import filtre_imagettes_selon_liste
-from Filtrage_des_classes.Pretraitement import split_train_val_test
-from Filtrage_des_classes.Pretraitement import print_repartition_pourcentage_par_classe
+import partie_1.methode_de_base as mb
+from partie_1.Visualisation_et_inspection_rapide.Visualisation_data import visualise_with_box
+from partie_1.Extraction_de_imagettes_de_panneaux.resizeur import resize_all_image
+from partie_1.Filtrage_des_classes.Pretraitement import print_repartition_classes
+from partie_1.Filtrage_des_classes.Pretraitement import calculs_repartition_classes
+from partie_1.Filtrage_des_classes.Pretraitement import filtre_imagettes_selon_liste
+from partie_1.Filtrage_des_classes.Pretraitement import split_train_val_test
+from partie_1.Filtrage_des_classes.Pretraitement import print_repartition_pourcentage_par_classe
 
 #Visualisation et inspection rapide :
 def visualise():
@@ -36,10 +36,10 @@ def split_data():
     mb.save_json(test, json_couple_path_class_test)
 
 
-image_dir = "../data/Image/"
-annotation_file = "../data/gt.txt"
-imagettes_output ="../data/"
-imagettes_dir_64x64="../data/64x64/"
+image_dir = "./data/Image/"
+annotation_file = "./data/gt.txt"
+imagettes_output ="./data/"
+imagettes_dir_64x64="./data/64x64/"
 # la variable si dessous est la pour stocker la liste des couple path_image et class qui a ete retenue apres le filtre selon une valuer min de 20   
 json_couple_path_class_train = imagettes_dir_64x64+"train.json"
 json_couple_path_class_val = imagettes_dir_64x64+"val.json"

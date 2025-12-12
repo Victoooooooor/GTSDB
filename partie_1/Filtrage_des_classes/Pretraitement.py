@@ -1,6 +1,6 @@
 import os
 from sklearn.model_selection import train_test_split
-import methode_de_base as mb
+import partie_1.methode_de_base as mb
 
 def calculs_repartition_classes(annotation_file_path):
     """
