@@ -46,7 +46,8 @@ json_couple_path_class_val = imagettes_dir_64x64+"val.json"
 json_couple_path_class_test = imagettes_dir_64x64+"test.json"
 
 """
-Consigne : Pour initialiser, il faut mettre les images de 0 à 599.ppm dans un dossier data/Image, ou remplacer les chemins au-dessus.
+Consigne : 
+Pour initialiser, il faut mettre les images de 0 à 599.ppm dans un dossier data/Image et dans data le fichier gt.txt, ou remplacer les chemins au-dessus.
 Ensuite, resize_all va faire tout ce qui est resize et sauvegarder le tout dans un fichier imagettes_output/ (format de l’image), donc normalement imagettes_output/64x64/.
 
 Ensuite, split_data() va charger l’annotation, faire des calculs pour la répartition, et supprimer les classes < 20.
@@ -55,5 +56,5 @@ les diviser dans nos 3 blocs train, val et test. J’ai ajouté des JSON pour ch
 
 """
 
-#resize_all()
+resize_all()
 split_data()
