@@ -22,8 +22,8 @@ def build_model(num_classes,size_image=64*64*3):
     model = tf.keras.Sequential([
         tf.keras.layers.Input(shape=(size_image,)),
         tf.keras.layers.Dense(size_image//2, activation="relu"),
-        tf.keras.layers.Dense(4096, activation="relu"),
         tf.keras.layers.Dense(1024, activation="relu"),
+        tf.keras.layers.Dense(512, activation="relu"),
         tf.keras.layers.Dense(num_classes, activation="softmax")
     ])
     return model
