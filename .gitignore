@@ -4,3 +4,5 @@
 __pycache__/
 *.pyc
 /venv/
+/partie_5/shapes_dataset/
+/partie_5/shapes_multi/
