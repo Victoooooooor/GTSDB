@@ -1,0 +1,10 @@
+/data/
+/partie_2/models/MLP_64x64.keras
+/partie_2/models/best_mlp.keras
+/partie_3/models/CNN_64x64.keras
+/__pycache__/
+__pycache__/
+*.pyc
+/venv/
+/partie_5/shapes_dataset/
+/partie_5/shapes_multi/
